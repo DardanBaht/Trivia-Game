@@ -12,10 +12,11 @@ $("#buttonNine").hide();
 $("#buttonTen").hide();
 $("#buttonElev").hide();
 $("#buttonTwel").hide();
+$("#buttonRestart").hide();
 
 
  // Set how much time to start with, how many correct and incorrect answers there are, your total score, a variable for new questions(yet to be decided). 
-        var time = 90;
+        var time = 30;
         var yes = 0;
         var no = 0;
         var total = 0;
@@ -71,7 +72,7 @@ function start(){
     $("#wrong").text("Wrong Answers: " + no)
     $("#buttonTwel").show();
 
-    time = 90
+    time = 30
     yes = 0
     no = 0 
     total = 0
@@ -232,10 +233,12 @@ $("#total").text("Your total score was: " + yes/5);
 
 
 
+$("buttonRestart").show();
+
 
 });
 
-    
+
    
     
     

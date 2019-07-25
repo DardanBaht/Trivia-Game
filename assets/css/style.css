@@ -7,13 +7,20 @@ body{
 }
 
 .container{
-    color: red;
+    color: black;
     text-align: center;
     height: 600px;
     width:100%;
     background-color: aqua;
     border: 5px solid black;
     position: absolute;
-    vertical-align: ;
+
 }
+
+.hereTwo{
+    color: aliceblue;
+
+}
+
+
 
