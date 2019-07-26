@@ -199,6 +199,9 @@ $("#buttonElev").on("click", function() {
 
 // -----------------------------------------------------------------
 
+// I feel like I made my code longer and more complicated than it needed to be. I could probably figure out to hide and show elements using less code. This is the way I was working through it so I kept it like this. 
+
+
 $("#buttonTwel").on("click", function(){
 
 $("#buttonTwo").hide();
@@ -230,6 +233,7 @@ $("#correct").hide();
 $("#wrong").hide();
 
 $("#total").text("Your total score was: " + yes/5);
+
 
 
 
